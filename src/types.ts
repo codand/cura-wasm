@@ -36,5 +36,11 @@ export interface Metadata
   material1Usage: number,
   material2Usage: number,
   nozzleSize: number,
-  filamentUsage: number
+  filamentUsage: number,
+  minX: number,
+  minY: number,
+  minZ: number,
+  maxX: number,
+  maxY: number,
+  maxZ: number
 }

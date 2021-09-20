@@ -49,7 +49,13 @@ module.exports = () =>
       material1Usage: 12315,
       material2Usage: 0,
       nozzleSize: 0.4,
-      filamentUsage: 12315
+      filamentUsage: 12315,
+      maxX: 162.108,
+      maxY: 127.435,
+      maxZ: 47.9,
+      minX: 98.628,
+      minY: 95.399,
+      minZ: 0.3,
     });
 
     await slicer.destroy();

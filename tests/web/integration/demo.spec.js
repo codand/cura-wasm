@@ -82,7 +82,13 @@ describe('cura wasm', () =>
           material1Usage: 11172,
           material2Usage: 0,
           nozzleSize: 0.4,
-          filamentUsage: 11172
+          filamentUsage: 11172,
+          maxX: 142.112,
+          maxY: 127.435,
+          maxZ: 48,
+          minX: 78.628,
+          minY: 95.565,
+          minZ: 0.3,
         }, done);
 
         //Slice
@@ -110,7 +116,13 @@ describe('cura wasm', () =>
           material1Usage: 11172,
           material2Usage: 0,
           nozzleSize: 0.4,
-          filamentUsage: 11172
+          filamentUsage: 11172,
+          maxX: 142.112,
+          maxY: 127.435,
+          maxZ: 48,
+          minX: 78.628,
+          minY: 95.565,
+          minZ: 0.3,
         }, done);
 
         //Slice
@@ -139,7 +151,13 @@ describe('cura wasm', () =>
           material1Usage: 11172,
           material2Usage: 0,
           nozzleSize: 0.4,
-          filamentUsage: 11172
+          filamentUsage: 11172,
+          maxX: 142.112,
+          maxY: 127.435,
+          maxZ: 48,
+          minX: 78.628,
+          minY: 95.565,
+          minZ: 0.3,
         }, done);
 
         //Slice
@@ -165,7 +183,13 @@ describe('cura wasm', () =>
           material1Usage: 12315,
           material2Usage: 0,
           nozzleSize: 0.4,
-          filamentUsage: 12315
+          filamentUsage: 12315,
+          maxX: 162.108,
+          maxY: 127.435,
+          maxZ: 47.9,
+          minX: 98.628,
+          minY: 95.399,
+          minZ: 0.3,
         }, done);
 
         window.overrides = [
@@ -225,7 +249,13 @@ describe('cura wasm', () =>
           material1Usage: 11172,
           material2Usage: 0,
           nozzleSize: 0.4,
-          filamentUsage: 11172
+          filamentUsage: 11172,
+          maxX: 142.112,
+          maxY: 127.434,
+          maxZ: 48,
+          minX: 78.628,
+          minY: 95.565,
+          minZ: 0.3,
         }, done);
 
         //Slice

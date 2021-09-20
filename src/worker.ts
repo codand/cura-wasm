@@ -190,7 +190,13 @@ const worker = {
         material1Usage: number,
         material2Usage: number,
         nozzleSize: number,
-        filamentUsage: number
+        filamentUsage: number,
+        minX: number,
+        minY: number,
+        minZ: number,
+        maxX: number,
+        maxY: number,
+        maxZ: number
       ) =>
       {
         //Emit metadata
@@ -203,7 +209,13 @@ const worker = {
             material1Usage,
             material2Usage,
             nozzleSize,
-            filamentUsage
+            filamentUsage,
+            minX,
+            minY,
+            minZ,
+            maxX,
+            maxY,
+            maxZ,
           } as Metadata);
         }
       };
