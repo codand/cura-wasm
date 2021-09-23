@@ -22,7 +22,8 @@
     "lint": "eslint .",
     "test:browser:cli": "concurrently --kill-others --success first \"npm:demo\" \"wait-on http-get://127.0.0.1:8080 && cypress run\"",
     "test:browser:gui": "concurrently --kill-others --success first \"npm:demo\" \"wait-on http-get://127.0.0.1:8080 && cypress open\"",
-    "test:node": "npm run build && nyc --reporter=lcov mocha --colors --exit --timeout 60000 tests/node/index.js"
+    "test:node": "npm run build && nyc --reporter=lcov mocha --colors --exit --timeout 60000 tests/node/index.js",
+    "test": "npm run test:node"
   },
   "repository": {
     "type": "git",
